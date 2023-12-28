@@ -303,6 +303,9 @@ h2#subTitle {
     font-family: 'Work Sans';
     content: "Claim Exclusive Access";
     letter-spacing: 2px;
+
+
+
 }
 
 .btn2 {
@@ -483,6 +486,10 @@ input::placeholder {
     line-height: 120%;
     /* 96px */
     letter-spacing: 3.2px;
+
+
+
+
 }
 
 .icons {
@@ -1193,27 +1200,50 @@ input[type="submit"]:hover {
     }
 
     .texts2 {
+
+
+
+
+
+        word-spacing: 1.2px;
+
         color: #535351;
 
-        font-size: 16px;
-        font-family: 'Work Sans';
-        letter-spacing: 1.4px;
-        word-spacing: 1.2px;
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+        /* 216.667% */
+        letter-spacing: 0.12px;
+        text-transform: uppercase;
 
     }
 
     .titleServices {
 
-        color: #FFF1DE;
+
+
+        padding-top: 7%;
+
+        color: #FCF4DC;
+
+        text-align: center;
+        font-family: Work Sans;
         font-size: 22px;
-        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 600;
+        line-height: 80%;
+        /* 17.6px */
+        text-transform: uppercase;
 
 
     }
 
     .titleServices2 {
         color: #1E1C1F;
-        font-family: 'Work Sans';
+        font-family: Work Sans;
         text-align: center;
         font-size: 22px;
         font-style: normal;
@@ -1304,9 +1334,19 @@ input[type="submit"]:hover {
     }
 
     #sst {
-        font-size: 17px;
-        line-height: 20px;
+
+
+
+
+        color: #FFF1DE;
+
         text-align: center;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%;
+        /* 19.2px */
     }
 
     .texts1 {
@@ -1321,6 +1361,7 @@ input[type="submit"]:hover {
         /* 200% */
         letter-spacing: 0.14px;
         text-transform: uppercase;
+
     }
 
 
@@ -1342,16 +1383,38 @@ input[type="submit"]:hover {
     }
 
     .btn1-text {
-        font-size: 13px;
+        /* font-size: 13px; */
         white-space: nowrap;
         margin: 10px 10px;
+
+        color: #FFF1DE;
+
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 38px;
+        /* 316.667% */
+        letter-spacing: 1.08px;
     }
 
     .btn2-text {
-        font-size: 13px;
+
         white-space: nowrap;
         margin: 10px 10px;
-        color: #ffffff;
+
+
+        color: #FFF1DE;
+
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 38px;
+        /* 316.667% */
+        letter-spacing: 1.08px;
     }
 
     .heading {
@@ -1487,37 +1550,55 @@ input[type="submit"]:hover {
 
     .rowTitles {
 
-        font-size: 29px;
-        font-weight: 700;
-        color: #212156;
+
+
+
         margin-top: 3.5vh;
         text-align: center;
         padding-left: 1vh;
         /* margin-top: auto;
         margin-left: auto; */
-        letter-spacing: 3px;
+
         /* word-spacing: -19vw; */
-        font-family: "Work Sans";
+        font-family: Work Sans;
 
         margin: 0 1px;
+
+        color: #30287D;
+
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        /* 187.5% */
+        letter-spacing: 0.32px;
 
     }
 
     .rowTitles2 {
 
-        font-size: 25px;
-        font-weight: 700;
-        color: #FCF4DC;
+
+        /* font-weight: 700; */
+
         margin-top: 3.5vh;
         text-align: center;
         padding-left: 0vh;
         margin-top: auto;
-        letter-spacing: 2px;
-        font-family: "Work Sans";
+        /* letter-spacing: 2px; */
+        /* font-family: "Work Sans"; */
         /* margin-left: auto; */
         margin: 0 2%;
 
+        color: #FFFCF4;
 
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        /* 187.5% */
+        letter-spacing: 0.32px;
 
     }
 
