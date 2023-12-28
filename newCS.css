@@ -186,7 +186,7 @@ div#head_bottom_con3 {
     /* max-width: 1998px; */
     /* padding-left: 6%; */
     width: 85%;
-    margin-top: -25%;
+    margin-top: -28%;
     /* background-color: rgba(0, 0, 0, 0.21); */
     /* backdrop-filter: blur(15px); */
     background: linear-gradient(180deg, rgba(97, 97, 97, 0.22) 0%, rgba(255, 255, 255, 0.22) 0%, rgba(255, 255, 255, 0.22) 0%, rgba(53, 53, 53, 0.20) 0.01%, rgba(97, 97, 97, 0.20) 100%);
@@ -349,7 +349,7 @@ h2#subTitle {
     cursor: pointer;
     padding: 4vh;
     height: 87vh;
-    padding-left: 1vw;
+    padding-left: 0vw;
 }
 
 .titleHeader {
@@ -1121,7 +1121,7 @@ input[type="submit"]:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 53px;
-    background-color: rgb(3, 38, 45);
+    background-color: #30287D;;
     border: 1px solid #ccc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 1000;
@@ -1443,6 +1443,7 @@ input[type="submit"]:hover {
         justify-content: center;
         align-items: center;
         padding: 31% 10px;
+        margin-top: -25%;
 
     }
 
