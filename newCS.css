@@ -285,15 +285,16 @@ h2#subTitle {
     border-radius: 39px;
     box-shadow: 0 0.7065919983928324px 0.7065919983928324px -0.625px #00000026, 0 1.8065619053231785px 1.8065619053231785px -1.25px #00000025, 0 3.6217592146567767px 3.6217592146567767px -1.875px #00000023, 0 6.8655999097303715px 6.8655999097303715px -2.5px #00000020, 0 13.646761411524492px 13.646761411524492px -3.125px #0000001b, 0 30px 30px -3.75px #0000000d;
     height: 60px;
-    width: fit-content;
-    padding: 0px;
+    width: 100%;
+    padding: 26px;
+    /* padding: 0px; */
     cursor: pointer;
     justify-content: center;
     display: flex;
 }
 
 .btn1-text {
-    font-size: 142%;
+    font-size: 133%;
     font-weight: 700;
     align-items: center;
     cursor: pointer;
@@ -309,8 +310,8 @@ h2#subTitle {
     /* border-radius: 39px; */
     box-shadow: 0 0.7065919983928324px 0.7065919983928324px -0.625px #00000026, 0 1.8065619053231785px 1.8065619053231785px -1.25px #00000025, 0 3.6217592146567767px 3.6217592146567767px -1.875px #00000023, 0 6.8655999097303715px 6.8655999097303715px -2.5px #00000020, 0 13.646761411524492px 13.646761411524492px -3.125px #0000001b, 0 30px 30px -3.75px #0000000d;
     height: 60px;
-    width: fit-content;
-    padding: 0px;
+    width: 100%;
+    padding: 13px;
     cursor: pointer;
     justify-content: center;
     display: flex;
@@ -1024,6 +1025,7 @@ input[type="submit"]:hover {
 
 }
 
+
 .launchText {
 
     font-size: 23px;
@@ -1107,7 +1109,7 @@ input[type="submit"]:hover {
 
 @media only screen and (max-width: 520px) {
     .titleHeader {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .contents_content {
@@ -1161,8 +1163,8 @@ input[type="submit"]:hover {
         width: 119%;
         height: fit-content;
         justify-content: center;
-        left: -13%;
-        top: 14%;
+        left: -15%;
+        top: 10%;
         /* font-family: 'Knick Knack'; */
     }
 
@@ -1237,7 +1239,7 @@ input[type="submit"]:hover {
 
     .texts1 {
         color: #FFF1DE;
-        font-size: 19px;
+        font-size: 18px;
         font-family: 'Work Sans';
         word-spacing: 1.5px;
         letter-spacing: 0.4px;
@@ -1247,6 +1249,8 @@ input[type="submit"]:hover {
 
     .btn1 {
         height: 42px;
+        width: fit-content;
+        padding: 0px;
     }
 
     .btn2 {
@@ -1254,6 +1258,9 @@ input[type="submit"]:hover {
         width: 120px;
         border-radius: 39px;
         border: 2px solid #ffffff;
+        padding: 0px;
+
+
     }
 
     .btn1-text {
@@ -1573,7 +1580,7 @@ input[type="submit"]:hover {
         margin-bottom: 0px;
         flex: 1;
         margin: 10px;
-        height: fit-content;
+        height: auto;
         /* text-align: center; */
     }
 
@@ -1595,7 +1602,7 @@ input[type="submit"]:hover {
         margin-bottom: 0px;
         flex: 1;
         margin: 10px;
-        height: fit-content;
+        height: auto;
         /* text-align: center; */
     }
 
@@ -1617,7 +1624,7 @@ input[type="submit"]:hover {
         margin-bottom: 0px;
         flex: 1;
         margin: 10px;
-        height: fit-content;
+        height: auto;
         /* text-align: center; */
     }
 
@@ -1639,7 +1646,7 @@ input[type="submit"]:hover {
         margin-bottom: 0px;
         flex: 1;
         margin: 10px;
-        height: fit-content;
+        height: auto;
         /* text-align: center; */
     }
 
@@ -1747,7 +1754,7 @@ input[type="submit"]:hover {
     /* CSS for individual service cards */
     .services .servicesdetails {
         flex: 0 0 auto;
-        min-width: 109%;
+        min-width: 107%;
         padding: 20px;
         text-align: center;
         margin-top: 13vh;
