@@ -1025,14 +1025,15 @@ input[type="submit"]:hover {
 
 }
 
-.form_texts{
+.form_texts {
     color: #30287D;
-font-family: Work Sans;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 120%; /* 16.8px */
-letter-spacing: 0.28px;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 16.8px */
+    letter-spacing: 0.28px;
 }
 
 .textOverImage {
@@ -1159,10 +1160,10 @@ letter-spacing: 0.28px;
         left: 2.5%;
         top: 11%;
         z-index: 999;
-    
-    
-    
-    
+
+
+
+
         text-align: center;
         font-family: 'Chela One';
         font-size: 19px;
@@ -1171,9 +1172,9 @@ letter-spacing: 0.28px;
         line-height: 38px;
         /* 126.667% */
         letter-spacing: 2.7px;
-    
+
     }
-    
+
     .titleHeader {
         font-size: 11px;
     }
@@ -1204,7 +1205,7 @@ letter-spacing: 0.28px;
     .titleServices {
 
         color: #FFF1DE;
-        font-size: 24px;
+        font-size: 22px;
         font-family: 'Work Sans';
 
 
@@ -1212,15 +1213,21 @@ letter-spacing: 0.28px;
 
     .titleServices2 {
         color: #1E1C1F;
-        font-size: 24px;
         font-family: 'Work Sans';
+        text-align: center;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 80%;
+        /* 17.6px */
+        text-transform: uppercase;
     }
 
     .tiltText {
         transform: rotate(0.12deg);
         position: absolute;
         margin: 5% 0 0 -29%;
-        
+
         z-index: 900;
         /* background-color: #30287D; */
         align-items: center;
@@ -1230,7 +1237,7 @@ letter-spacing: 0.28px;
         justify-content: center;
         left: -9%;
         top: 9.4%;
-        
+
     }
 
     .modal {
@@ -1304,10 +1311,16 @@ letter-spacing: 0.28px;
 
     .texts1 {
         color: #FFF1DE;
-        font-size: 18px;
+        font-size: 14px;
         font-family: 'Work Sans';
         word-spacing: 1.5px;
-        letter-spacing: 0.4px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        /* 200% */
+        letter-spacing: 0.14px;
+        text-transform: uppercase;
     }
 
 
@@ -1382,10 +1395,16 @@ letter-spacing: 0.28px;
 
     .texts2 {
         color: #535351;
-        font-size: 20px;
+        font-size: 12px;
         font-family: 'Work Sans';
-        letter-spacing: 1.4px;
         word-spacing: 1.2px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+        /* 216.667% */
+        letter-spacing: 0.12px;
+        text-transform: uppercase;
     }
 
     .firstCol {
