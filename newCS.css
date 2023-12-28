@@ -1007,21 +1007,59 @@ input[type="submit"]:hover {
 }
 
 .tiltText {
-    transform: rotate(320deg);
+    /* /* transform: rotate(320deg); */
     position: absolute;
     margin: 5% 0 0 -29%;
     /* text-align: center; */
     /* color: white; */
-    z-index: 1000;
+    z-index: 900;
 
-    background-color: #fdcb2e;
+    /* background-color: #fdcb2e; */
     align-items: center;
     display: flex;
     width: 93%;
     height: fit-content;
     justify-content: center;
     left: -7%;
-    top: 7%;
+    top: 2.8%;
+
+}
+
+.form_texts{
+    color: #30287D;
+font-family: Work Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 16.8px */
+letter-spacing: 0.28px;
+}
+
+.textOverImage {
+    position: absolute;
+    color: white;
+    /* font-size: 18px; Adjust the font size as needed */
+    transform: rotate(-34.88deg);
+    align-items: center;
+    display: flex;
+    width: 93%;
+    height: fit-content;
+    justify-content: center;
+    left: 2.5%;
+    top: 14%;
+    z-index: 999;
+
+
+
+
+    text-align: center;
+    font-family: 'Chela One';
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    /* 126.667% */
+    letter-spacing: 2.7px;
 
 }
 
@@ -1108,6 +1146,34 @@ input[type="submit"]:hover {
 }
 
 @media only screen and (max-width: 520px) {
+    .textOverImage {
+        position: absolute;
+        color: white;
+        /* font-size: 18px; Adjust the font size as needed */
+        transform: rotate(-34.88deg);
+        align-items: center;
+        display: flex;
+        width: 93%;
+        height: fit-content;
+        justify-content: center;
+        left: 2.5%;
+        top: 11%;
+        z-index: 999;
+    
+    
+    
+    
+        text-align: center;
+        font-family: 'Chela One';
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 38px;
+        /* 126.667% */
+        letter-spacing: 2.7px;
+    
+    }
+    
     .titleHeader {
         font-size: 11px;
     }
@@ -1151,21 +1217,20 @@ input[type="submit"]:hover {
     }
 
     .tiltText {
-        transform: rotate(320deg);
+        transform: rotate(0.12deg);
         position: absolute;
         margin: 5% 0 0 -29%;
-        /* text-align: center; */
-        /* color: white; */
-        z-index: 1002;
-        background-color: #30287D;
+        
+        z-index: 900;
+        /* background-color: #30287D; */
         align-items: center;
         display: flex;
         width: 119%;
         height: fit-content;
         justify-content: center;
-        left: -15%;
-        top: 10%;
-        /* font-family: 'Knick Knack'; */
+        left: -9%;
+        top: 9.4%;
+        
     }
 
     .modal {
