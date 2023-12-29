@@ -9,7 +9,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Awwzo">
     <meta property="og:description" content="Premium Pet Boarding">
-    <meta property="og:image" content="https://awwzo.com/awwzo_icon.jpg">
+    <meta property="og:image" content="https://awwzo.com/small_icon.svg">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
@@ -17,7 +17,7 @@
     <meta property="twitter:url" content="https://awwzo.com">
     <meta name="twitter:title" content="Awwzo">
     <meta name="twitter:description" content="Premium Pet Boarding">
-    <meta name="twitter:image" content="https://awwzo.com/awwzo_icon.jpg">
+    <meta name="twitter:image" content="https://awwzo.com/small_icon.svg">
 
     <meta property="og:image" content="logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1">
@@ -80,7 +80,7 @@
             background: linear-gradient(180deg, rgba(170, 170, 170, 0.22) 0%,
                     rgba(255, 255, 255, 0.22) 0%,
                     rgba(53, 53, 53, 0.20) 0.01%, rgba(53, 53, 53, 0.20) 100%);
-            backdrop-filter: blur(6px);
+            backdrop-filter: blur(16px);
 
         }
 
@@ -167,9 +167,8 @@
 
                     <div class="firstCol">
                         <div class="tiltText">
-                            <!-- <p class="launchText">Launching Soon!!</p> -->
-                            <p class="textOverImage">Launching Soon</p>
-                            <img src="Rectangle 21916.svg" style="z-index: 800;">
+                            <p class="launchText">Launching Soon!!</p>
+                            
 
                         </div>
                         <div class="contents">
@@ -216,7 +215,10 @@
                             <div class="services">
                                 <div class="servicesdetails">
 
+
                                     <img src="boarding_1.svg" style="width: 80px;">
+
+
                                     <p class="titleServices"><b>BOARDING</b></p>
                                     <p class="texts1"><b>OVERNIGHT STAY:</b> A safe and comfortable home for pets.</p>
                                 </div>
@@ -383,16 +385,27 @@
 
     <script>
 
+        // window.onscroll = function () {
+
+        //     var tiltText = document.getElementById("tiltText");
+
+        //     // Change z-index when scrolling down
+        //     if (window.scrollY > 1) {
+        //         tiltText.style.zIndex = "1";
+        //     } else {
+        //         // If not scrolled (initially), set z-index to 1001
+        //         tiltText.style.zIndex = "1001";
+        //     }
+        // };
+
         window.onscroll = function () {
+            var text = document.querySelector(".tiltText");
 
-            var tiltText = document.getElementById("tiltText");
-
-            // Change z-index when scrolling down
-            if (window.scrollY > 1) {
-                tiltText.style.zIndex = "999";
+            // Change header background color when scrolling down
+            if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
+                text.style.zIndex = "1"
             } else {
-                // If not scrolled (initially), set z-index to 1001
-                tiltText.style.zIndex = "1001";
+                text.style.zIndex = "1002";
             }
         };
 
