@@ -15,6 +15,10 @@ body,
     -webkit-font-smoothing: inherit;
 }
 
+.box_image {
+    display: flex;
+    flex-direction: column;
+}
 
 
 div#head_bottom_con {
@@ -284,7 +288,7 @@ h2#subTitle {
     background-color: #212156;
     border-radius: 39px;
     box-shadow: 0 0.7065919983928324px 0.7065919983928324px -0.625px #00000026, 0 1.8065619053231785px 1.8065619053231785px -1.25px #00000025, 0 3.6217592146567767px 3.6217592146567767px -1.875px #00000023, 0 6.8655999097303715px 6.8655999097303715px -2.5px #00000020, 0 13.646761411524492px 13.646761411524492px -3.125px #0000001b, 0 30px 30px -3.75px #0000000d;
-    height: 60px;
+    height: 55px;
     width: 100%;
     padding: 26px;
     /* padding: 0px; */
@@ -294,12 +298,12 @@ h2#subTitle {
 }
 
 .btn1-text {
-    font-size: 133%;
+    font-size: 126%;
     font-weight: 700;
     align-items: center;
     cursor: pointer;
     color: #FFF1DE;
-    margin: 10px 20px;
+    margin: 10px 15px;
     font-family: 'Work Sans';
     content: "Claim Exclusive Access";
     letter-spacing: 2px;
@@ -312,7 +316,7 @@ h2#subTitle {
     align-items: center;
     /* border-radius: 39px; */
     box-shadow: 0 0.7065919983928324px 0.7065919983928324px -0.625px #00000026, 0 1.8065619053231785px 1.8065619053231785px -1.25px #00000025, 0 3.6217592146567767px 3.6217592146567767px -1.875px #00000023, 0 6.8655999097303715px 6.8655999097303715px -2.5px #00000020, 0 13.646761411524492px 13.646761411524492px -3.125px #0000001b, 0 30px 30px -3.75px #0000000d;
-    height: 60px;
+    height: 55px;
     width: 100%;
     padding: 13px;
     cursor: pointer;
@@ -325,7 +329,7 @@ h2#subTitle {
 }
 
 .btn2-text {
-    font-size: 155%;
+    font-size: 130%;
     font-weight: 700;
     align-items: center;
     cursor: pointer;
@@ -400,7 +404,7 @@ input::placeholder {
 }
 
 .firstRow {
-    background-image: url('./background_new.png');
+    background-image: url('./desktop_background_1.svg');
 
     background-size: cover;
     background-position: top;
@@ -512,7 +516,7 @@ input::placeholder {
     background-color: #212156;
     cursor: pointer;
     padding: 4vh;
-    height: fit-content;
+    height: 127vh;
     padding-left: 1vw;
 }
 
@@ -1014,21 +1018,20 @@ input[type="submit"]:hover {
 }
 
 .tiltText {
-    /* /* transform: rotate(320deg); */
+    transform: rotate(320deg);
     position: absolute;
     margin: 5% 0 0 -29%;
     /* text-align: center; */
     /* color: white; */
-    z-index: 900;
-
-    /* background-color: #fdcb2e; */
+    z-index: 1001;
+    background-color: #fdcb2e;
     align-items: center;
     display: flex;
     width: 93%;
-    height: fit-content;
+    height: 78.062px;
     justify-content: center;
     left: -7%;
-    top: 2.8%;
+    top: 7%;
 
 }
 
@@ -1062,7 +1065,7 @@ input[type="submit"]:hover {
 
     text-align: center;
     font-family: 'Chela One';
-    font-size: 17px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 400;
     line-height: 38px;
@@ -1073,14 +1076,16 @@ input[type="submit"]:hover {
 
 
 .launchText {
-
-    font-size: 23px;
-    color: #212156;
-
     font-family: 'Chela One';
-    letter-spacing: 2px;
-    margin-left: 12%;
-
+    text-align: center;
+    margin-left: 10%;
+    color: #30287D;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    /* 126.667% */
+    letter-spacing: 2.7px;
 
 }
 
@@ -1121,7 +1126,8 @@ input[type="submit"]:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 53px;
-    background-color: #30287D;;
+    background-color: #212156;
+    ;
     border: 1px solid #ccc;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 1000;
@@ -1142,13 +1148,14 @@ input[type="submit"]:hover {
     color: rgb(245, 245, 245);
     margin-top: 4%;
     margin-bottom: 0%;
+    font-weight: 500;
     font-family: 'Work Sans'
 }
 
 .alertText2 {
     text-align: center;
     font-size: 125%;
-    color: rgb(145, 157, 175);
+    color: rgb(163, 175, 193);
     font-family: 'Work Sans'
 
 }
@@ -1254,19 +1261,24 @@ input[type="submit"]:hover {
     }
 
     .tiltText {
-        transform: rotate(0.12deg);
+
+
+        transform: rotate(320deg);
         position: absolute;
         margin: 5% 0 0 -29%;
-
-        z-index: 900;
-        /* background-color: #30287D; */
+        /* text-align: center; */
+        /* color: white; */
+        z-index: 1002;
+        background-color: #fdcb2e;
         align-items: center;
         display: flex;
-        width: 119%;
-        height: fit-content;
+        /* width: 72%; */
+        /* height: fit-content; */
         justify-content: center;
-        left: -9%;
-        top: 9.4%;
+        left: -4%;
+        top: 11%;
+        width: 100%;
+        height: 42.086px;
 
     }
 
@@ -1279,9 +1291,8 @@ input[type="submit"]:hover {
 
 
     .launchText {
-
         font-size: 14px;
-        color: #ffffff;
+        color: #212156;
         font-family: 'Chela One';
 
 
@@ -1330,7 +1341,7 @@ input[type="submit"]:hover {
         padding-right: 0%;
         margin-top: -35%;
         align-items: center;
-        width: 70vw;
+        width: 100%;
     }
 
     #sst {
@@ -1370,14 +1381,16 @@ input[type="submit"]:hover {
         height: 42px;
         width: fit-content;
         padding: 0px;
+        box-shadow: none;
     }
 
     .btn2 {
         height: 42px;
         width: 120px;
         border-radius: 39px;
-        border: 2px solid #ffffff;
+        border: 2px solid #FFF1DE;
         padding: 0px;
+        box-shadow: none;
 
 
     }
@@ -1436,19 +1449,20 @@ input[type="submit"]:hover {
 
         color: white;
         width: 100vw;
-        background-color: rgba(0, 0, 0, 0);
-        backdrop-filter: blur(2px);
+        background-color: transparent;
+        backdrop-filter: blur(0px);
         /* padding: 80px 10px; */
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 31% 10px;
-        margin-top: -25%;
+        margin-top: -37%;
+        background: none;
 
     }
 
     .firstRow {
-        background-image: url(./background_mobile.svg);
+        background-image: url(./mobile_background.svg);
         background-size: cover;
         background-position: top;
         position: relative;
@@ -1945,12 +1959,12 @@ input[type="submit"]:hover {
         height: 10px;
         margin: 0 5px;
         border-radius: 50%;
-        background-color: rgba(0, 0, 0, 0.15);
+        background-color: #D1C3B0;
         cursor: pointer;
     }
 
     .scroll-dot.active {
-        background-color: rgb(84, 17, 8);
+        background-color: #30287D;
     }
 
     .services2 {
@@ -1985,17 +1999,17 @@ input[type="submit"]:hover {
         height: 10px;
         margin: 0 5px;
         border-radius: 50%;
-        background-color: rgb(0, 24, 34);
+        background-color: #5850A8;
         cursor: pointer;
     }
 
     .scroll-dot2.active {
-        background-color: rgb(0, 91, 130);
+        background-color: #FDCB2E;
     }
 
-    /* Customize carousel container and item styles */
 
-    /* Customize the carousel container */
+
+
     .services-container {
         width: 100%;
         /* Set the desired width for the container */
