@@ -117,7 +117,7 @@ div#head_bottom_con3 {
     flex-wrap: nowrap;
     flex-direction: column;
     gap: 0px;
-    height: 110vh;
+    height: 114vh;
     justify-content: center;
     overflow: hidden;
     padding: 0;
@@ -189,7 +189,7 @@ div#head_bottom_con3 {
     align-items: flex-start;
     /* max-width: 1998px; */
     /* padding-left: 6%; */
-    width: 85%;
+    width: 72%;
     margin-top: -28%;
     /* background-color: rgba(0, 0, 0, 0.21); */
     /* backdrop-filter: blur(15px); */
@@ -229,7 +229,7 @@ h1#title {
     flex-direction: column;
     flex-wrap: wrap;
     padding-right: 5%;
-    margin-top: -44%;
+    margin-top: -53%;
     justify-content: flex-start;
     width: 100%;
 }
@@ -279,7 +279,7 @@ h2#subTitle {
     align-items: center;
     flex-wrap: nowrap;
     gap: 1vw;
-    margin-top: -5%;
+    margin-top: -8%;
 }
 
 .btn1 {
@@ -288,9 +288,9 @@ h2#subTitle {
     background-color: #212156;
     border-radius: 39px;
     box-shadow: 0 0.7065919983928324px 0.7065919983928324px -0.625px #00000026, 0 1.8065619053231785px 1.8065619053231785px -1.25px #00000025, 0 3.6217592146567767px 3.6217592146567767px -1.875px #00000023, 0 6.8655999097303715px 6.8655999097303715px -2.5px #00000020, 0 13.646761411524492px 13.646761411524492px -3.125px #0000001b, 0 30px 30px -3.75px #0000000d;
-    height: 55px;
+    height: 53px;
     width: 100%;
-    padding: 26px;
+    padding: 11px;
     /* padding: 0px; */
     cursor: pointer;
     justify-content: center;
@@ -316,9 +316,9 @@ h2#subTitle {
     align-items: center;
     /* border-radius: 39px; */
     box-shadow: 0 0.7065919983928324px 0.7065919983928324px -0.625px #00000026, 0 1.8065619053231785px 1.8065619053231785px -1.25px #00000025, 0 3.6217592146567767px 3.6217592146567767px -1.875px #00000023, 0 6.8655999097303715px 6.8655999097303715px -2.5px #00000020, 0 13.646761411524492px 13.646761411524492px -3.125px #0000001b, 0 30px 30px -3.75px #0000000d;
-    height: 55px;
+    height: 53px;
     width: 100%;
-    padding: 13px;
+    padding: 3px;
     cursor: pointer;
     justify-content: center;
     display: flex;
@@ -404,7 +404,7 @@ input::placeholder {
 }
 
 .firstRow {
-    background-image: url('./desktop_background_4.jpg');
+    background-image: url('./desktop_background_6.jpg');
 
     background-size: cover;
     background-position: top;
