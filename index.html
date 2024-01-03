@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="icon" href="small_icon.svg" type="image/png">
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://awwzo.com">
     <meta property="og:type" content="website">
@@ -74,7 +74,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 10px 20px;
+            /* padding: 10px 20px; */
             /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
             /* border: 1px solid rgba(252, 244, 220, 0.12); */
             background: linear-gradient(180deg, rgba(170, 170, 170, 0.22) 0%,
@@ -86,8 +86,9 @@
 
         .header .logo img {
             width: 103px;
-            height: 79px;
-            padding-top: 5px;
+            height: 66px;
+            /* padding-top: 5px; */
+            margin-top: 10%;
 
         }
 
@@ -142,14 +143,25 @@
 
     </div> -->
     <div class="header">
-        <div class="logo">
-            <!-- Add your logo image here -->
-            <img src="small_icon.svg" alt="Logo" id="logoAwwzo">
+        <div class="headerCol" >
+            <div class="logo">
+                <!-- Add your logo image here -->
+                <img src="small_icon.svg" alt="Logo" id="logoAwwzo">
+                
+            </div>
+            
+            <div class="launchingSoon">
+                <p class="launchText">Launching Soon!!</p>
+            </div>
         </div>
+        
+        
+        
         <!-- <div class="menu-icon" onclick="toggleMenu()"></div> -->
         <div class="titleHeader">
             About Us
         </div>
+        
     </div>
     <div class="overlay"></div>
 
@@ -166,11 +178,11 @@
 
 
                     <div class="firstCol">
-                        <div class="tiltText">
+                        <!-- <div class="tiltText">
                             <p class="launchText">Launching Soon!!</p>
                             
 
-                        </div>
+                        </div> -->
                         <div class="contents">
                             <div class="contents_content">
                                 <div class="heading" id="top_header">
